@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    line-height: 1.6;
+}
+header{
+    background:orange;
+    color: #fff;
+    padding: 10px 20px;
+}
+main{
+    background-color:blue;
+    padding: 10px 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav ul a:hover,
+nav ul li a.active{
+    color: blue;
+}
+.hero{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:liner-gradient(to right,purple,blue);
+color: white;
+text-align: center;
+}
+.hero h1 span{
+    color: orangered;
+}
+.btn{
+    display:inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.About{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.About img {
+width: 200px;
+border-radius: 50%;
+margin-right: 30px;
+}
+.Contact{
+    padding: 40px;
+    text-align: center;
+}
+.Contact form{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Contact input,.Contact textarea{
+    margin: 10px 0;
+    padding: 10px;
+}
+button.btn{
+    cursor: pointer;
+}
